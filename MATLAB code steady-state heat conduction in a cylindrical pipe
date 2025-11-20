@@ -1,6 +1,6 @@
 clc; clear;
 
-%% ---- SOLVER (same structure, shortened comments) ----
+%% ---- SOLVER ----
 L    = 3.0;      ri = 0.05;  ro = 0.10;
 Nr   = 80;       Nz = 200;
 r    = linspace(ri, ro, Nr).';   dr = r(2)-r(1);
